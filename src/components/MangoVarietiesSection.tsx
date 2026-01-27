@@ -1,4 +1,4 @@
-import mangoVarieties from "@/assets/mango-varieties.jpg";
+import mangoVarieties from "@/assets/newimg.png";
 
 const MangoVarietiesSection = () => {
   return (
@@ -7,7 +7,7 @@ const MangoVarietiesSection = () => {
         <img
           src={mangoVarieties}
           alt="Meet the Gang of Mangos - Savani Farms has different varieties including Alphonso, Kesar, Chaunsa, Olamangola, Thai Mango, and Indian Jasmine Mango"
-          className="w-full max-w-xs sm:max-w-md md:max-w-xl lg:max-w-3xl mx-auto h-auto rounded-lg shadow-lg"
+          className="w-full max-w-md sm:max-w-2xl md:max-w-4xl lg:max-w-5xl mx-auto h-auto rounded-2xl shadow-xl"
         />
       </div>
     </section>
