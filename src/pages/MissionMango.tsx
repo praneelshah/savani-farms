@@ -300,7 +300,7 @@ const MissionMango = () => {
             className="relative max-w-5xl mx-auto"
           >
             {/* Main Slideshow */}
-            <div className="relative aspect-[16/9] rounded-3xl overflow-hidden shadow-elevated">
+            <div className="relative aspect-[16/9] rounded-3xl overflow-hidden shadow-elevated bg-background">
               {slideshowImages.map((image, index) => (
                 <motion.div
                   key={index}
@@ -312,7 +312,7 @@ const MissionMango = () => {
                   <img
                     src={image.src}
                     alt={image.alt}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain"
                   />
                 </motion.div>
               ))}
@@ -357,7 +357,7 @@ const MissionMango = () => {
                 <button
                   key={index}
                   onClick={() => setCurrentSlide(index)}
-                  className={`aspect-video rounded-xl overflow-hidden transition-all ${
+                  className={`aspect-video rounded-xl overflow-hidden bg-background transition-all ${
                     index === currentSlide
                       ? "ring-2 ring-primary ring-offset-2"
                       : "opacity-60 hover:opacity-100"
@@ -366,7 +366,7 @@ const MissionMango = () => {
                   <img
                     src={image.src}
                     alt={image.alt}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain"
                   />
                 </button>
               ))}
