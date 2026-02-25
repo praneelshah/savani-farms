@@ -8,44 +8,81 @@ import heroImage from "@/assets/hero-fresh-mangoes.jpg";
 
 const products = [
   {
-    id: "queen-kesar",
-    name: "Queen Kesar",
+    id: "kesar-mango",
+    name: "Kesar Mango",
     tagline: "Golden Saffron Delight",
-    description: "The Queen Kesar, known for its golden saffron glow and rich, smooth pulp, delivers a sweet, intense flavor that lingers on the palate. This premium variety is handpicked at perfect ripeness.",
-    image: "https://images.unsplash.com/photo-1553279768-865429fa0078?w=800",
-    weight: "200-300g",
+    description:
+      "The celebrated Gujarati variety with deep saffron-colored flesh, naturally sweet pulp, and a lingering floral aroma.",
+    image: "https://images.unsplash.com/photo-1591073113125-e46713c829ed?w=800&auto=format&fit=crop&q=80",
+    weight: "200–300 g",
     origin: "Gujarat, India",
-    season: "April - June"
+    season: "April – June",
   },
   {
-    id: "king-alphonso",
-    name: "King Alphonso",
+    id: "alphonso-mango",
+    name: "Alphonso Mango",
     tagline: "King of Mangoes",
-    description: "The King of Mangoes, Alphonso features a bright yellow flesh with a pink blush. Known for its fruity aroma with citrus overtones, it offers an unparalleled taste experience.",
-    image: "https://images.unsplash.com/photo-1601493700631-2b16ec4b4716?w=800",
-    weight: "200-300g",
+    description:
+      "Rich, creamy and completely fiberless, Alphonso delivers a bright tropical aroma with citrus and honey notes in every bite.",
+    image: "https://images.unsplash.com/photo-1553279768-865429fa0078?w=800&auto=format&fit=crop&q=80",
+    weight: "200–300 g",
     origin: "Maharashtra, India",
-    season: "April - June"
+    season: "April – June",
   },
   {
-    id: "olamangola",
-    name: "Olamangola",
-    tagline: "The Giant Mango",
-    description: "Large and fiber-less with a unique coconutty flavor, Olamangola is perfect for those who love substantial fruit with a distinctive taste profile.",
-    image: "https://images.unsplash.com/photo-1519096845289-95806ee03a1a?w=800",
-    weight: "400-700g",
-    origin: "South India",
-    season: "May - July"
+    id: "badami-mango",
+    name: "Badami Mango",
+    tagline: "Alphonso of Karnataka",
+    description:
+      "Beloved South Indian cultivar with buttery, tender flesh and a mellow sweetness that makes it perfect for fresh eating.",
+    image: "https://images.unsplash.com/photo-1601493700631-2b16ec4b4716?w=800&auto=format&fit=crop&q=80",
+    weight: "220–320 g",
+    origin: "Karnataka, India",
+    season: "May – July",
   },
   {
-    id: "indian-jasmine",
-    name: "Indian Jasmine",
-    tagline: "Aroma of India",
-    description: "Named for its floral fragrance, Indian Jasmine mango offers a delicate sweetness with aromatic notes that make it truly special.",
-    image: "https://images.unsplash.com/photo-1605027990121-cbae9e0642df?w=800",
-    weight: "250-350g",
-    origin: "Various Regions",
-    season: "May - June"
+    id: "rajapuri-mango",
+    name: "Rajapuri Mango",
+    tagline: "Royal, Large-Sized Fruit",
+    description:
+      "Large, round mango with generous slices, gentle sweetness, and balanced acidity—ideal for families, juices, and pickles.",
+    image: "/assets/rajpuri mango.jpg",
+    weight: "500–800 g",
+    origin: "Gujarat & Maharashtra, India",
+    season: "May – July",
+  },
+  {
+    id: "golden-angel-mango",
+    name: "Golden Angel Mango",
+    tagline: "Radiant Dessert Mango",
+    description:
+      "Glowing golden skin with smooth, fiberless flesh that shines in desserts, fruit platters, and premium gifting boxes.",
+    image: "/assets/51UyZqMQeRL._AC_UF1000,1000_QL80_.jpg",
+    weight: "250–350 g",
+    origin: "Select Indian orchards",
+    season: "May – June",
+  },
+  {
+    id: "langra-mango",
+    name: "Langra Mango",
+    tagline: "North Indian Classic",
+    description:
+      "Iconic lime-green mango with silky flesh and a uniquely sweet–tangy character, cherished across North India.",
+    image: "/assets/langromango.webp",
+    weight: "250–350 g",
+    origin: "Uttar Pradesh, India",
+    season: "July – August",
+  },
+  {
+    id: "dasheri-mango",
+    name: "Dasheri Mango",
+    tagline: "Perfumed Orchard Favorite",
+    description:
+      "Long, elegant mango known for its intensely aromatic, honey-sweet flesh and soft, melting texture.",
+    image: "/assets/dasehri.jpg",
+    weight: "200–300 g",
+    origin: "Malihabad, Uttar Pradesh, India",
+    season: "June – August",
   },
 ];
 

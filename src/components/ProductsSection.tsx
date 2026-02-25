@@ -3,36 +3,67 @@ import { Link } from "react-router-dom";
 import AddToCartButton from "@/components/AddToCartButton";
 const products = [
   {
+    id: "kesar-mango",
+    name: "Kesar Mango",
+    tagline: "Golden Saffron Jewel",
+    description:
+      "Signature Gujarati cultivar with deep saffron-colored flesh, intense sweetness, and a lingering floral aroma.",
+    image: "https://images.unsplash.com/photo-1591073113125-e46713c829ed?w=800&auto=format&fit=crop&q=80",
+    price: "$44.99",
+  },
+  {
     id: "alphonso-mango",
     name: "Alphonso Mango",
     tagline: "King of Mangoes",
-    description: "The king of mangoes, known for its rich, creamy texture and sweet, aromatic flavor.",
-    image: "https://images.unsplash.com/photo-1553279768-865429fa0078?w=600",
-    price: "$39.99",
-  },
-  {
-    id: "kesar-mango",
-    name: "Kesar Mango",
-    tagline: "Golden Saffron Delight",
-    description: "Golden-hued delight with a unique saffron-like aroma and sweet, juicy flesh.",
-    image: "https://images.unsplash.com/photo-1591073113125-e46713c829ed?w=600",
-    price: "$34.99",
+    description:
+      "Legendary Indian export variety: rich, creamy, fiberless, with a classic perfumed sweetness and vivid orange flesh.",
+    image: "https://images.unsplash.com/photo-1553279768-865429fa0078?w=800&auto=format&fit=crop&q=80",
+    price: "$49.99",
   },
   {
     id: "badami-mango",
     name: "Badami Mango",
-    tagline: "South Indian Favorite",
-    description: "Known as the 'Alphonso of Karnataka', offers similar taste profile with regional charm.",
-    image: "https://images.unsplash.com/photo-1601493700631-2b16ec4b4716?w=600",
-    price: "$29.99",
+    tagline: "Alphonso of Karnataka",
+    description:
+      "Beloved South Indian variety offering an Alphonso-like profile with a milder, buttery sweetness and tender flesh.",
+    image: "https://images.unsplash.com/photo-1601493700631-2b16ec4b4716?w=800&auto=format&fit=crop&q=80",
+    price: "$39.99",
   },
   {
-    id: "neelam-mango",
-    name: "Neelam Mango",
-    tagline: "Late Season Treasure",
-    description: "Fiber-free with intense sweetness, available when other varieties have ended.",
-    image: "https://images.unsplash.com/photo-1560155016-bd4879ae8f21?w=600",
-    price: "$27.99",
+    id: "rajapuri-mango",
+    name: "Rajapuri Mango",
+    tagline: "Royal, Large-Sized Fruit",
+    description:
+      "Big, bold mango with generous slices, gentle sweetness, and a balanced tang—perfect for families and sharing.",
+    image: "/assets/rajpuri mango.jpg",
+    price: "$42.99",
+  },
+  {
+    id: "golden-angel-mango",
+    name: "Golden Angel Mango",
+    tagline: "Radiant Dessert Mango",
+    description:
+      "Bright golden skin with smooth, fiberless flesh, crafted for indulgent desserts, ice creams, and fresh platters.",
+    image: "/assets/51UyZqMQeRL._AC_UF1000,1000_QL80_.jpg",
+    price: "$41.99",
+  },
+  {
+    id: "langra-mango",
+    name: "Langra Mango",
+    tagline: "North Indian Classic",
+    description:
+      "Iconic variety with lime-green skin, silky flesh, and a unique sweet-tangy character loved across North India.",
+    image: "/assets/langromango.webp",
+    price: "$37.99",
+  },
+  {
+    id: "dasheri-mango",
+    name: "Dasheri Mango",
+    tagline: "Perfumed Orchard Favorite",
+    description:
+      "Long, elegant fruit with intensely aromatic flesh, soft texture, and honeyed sweetness straight from the orchards.",
+    image: "/assets/dasehri.jpg",
+    price: "$36.99",
   },
 ];
 

@@ -15,6 +15,7 @@ import ShippingRipeningStoring from "./pages/ShippingRipeningStoring";
 import HowToCutMango from "./pages/HowToCutMango";
 import Cart from "./pages/Cart";
 import NotFound from "./pages/NotFound";
+import JumboKesarMangoSouthFlorida from "./pages/JumboKesarMangoSouthFlorida";
 
 const queryClient = new QueryClient();
 
@@ -31,6 +32,7 @@ const App = () => (
             <Route path="/mission-mango" element={<MissionMango />} />
             <Route path="/fresh-mangoes" element={<FreshMangoes />} />
             <Route path="/mango-pulp" element={<MangoPulp />} />
+            <Route path="/jumbo-kesar-mango-south-florida" element={<JumboKesarMangoSouthFlorida />} />
             <Route path="/shipping-ripening-storing" element={<ShippingRipeningStoring />} />
             <Route path="/how-to-cut-mango" element={<HowToCutMango />} />
             <Route path="/recipes" element={<Recipes />} />

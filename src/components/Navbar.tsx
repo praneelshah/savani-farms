@@ -29,6 +29,7 @@ const Navbar = () => {
   const mainNavLinks = [
     { name: "Home", href: "/" },
     { name: "Mission Mango", href: "/mission-mango" },
+    { name: "Mango Articles", href: "/jumbo-kesar-mango-south-florida" },
   ];
 
   const productsDropdown = {
